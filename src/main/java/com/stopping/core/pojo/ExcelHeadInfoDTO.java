@@ -1,5 +1,6 @@
 package com.stopping.core.pojo;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -7,6 +8,7 @@ import lombok.Data;
  * @author stopping
  */
 @Data
+@AllArgsConstructor
 public class ExcelHeadInfoDTO {
     /**
      * EXCEL映射数据库表名称
