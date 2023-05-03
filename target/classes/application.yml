@@ -1,0 +1,22 @@
+logging:
+  config: classpath:logback.xml
+  level:
+    root: info
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/excel-to-db?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  mapper-locations: classpath*:*mapper/*.xml
+  typeAliasesPackage: com.stopping.mvc.pojo.entity
+  global-config:
+    db-config:
+      id-type: UUID
+      field-strategy: not_empty
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
