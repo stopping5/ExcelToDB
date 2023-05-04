@@ -1,7 +1,8 @@
 package com.stopping.mvc.service;
 
-import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.stopping.core.pojo.ExcelFieldConfigDTO;
+import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
 
 /**
  * <p>
@@ -12,5 +13,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @date 2023-05-03
  */
 public interface ExcelFieldConfigService extends IService<ExcelFieldConfig> {
-
+    /**
+     * 批量保存Excel字段配置
+     * @param excelFieldConfig
+     */
+    void batchSave(ExcelFieldConfigDTO excelFieldConfig);
 }

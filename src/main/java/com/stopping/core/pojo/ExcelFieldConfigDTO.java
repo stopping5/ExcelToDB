@@ -8,7 +8,7 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class ExcelFieldConfig {
+public class ExcelFieldConfigDTO {
     /**
      * 表头字段名
      * */

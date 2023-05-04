@@ -1,5 +1,6 @@
 package com.stopping.mvc.service.impl;
 
+import com.stopping.core.pojo.ExcelFieldConfigDTO;
 import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
 import com.stopping.mvc.dao.mapper.ExcelFieldConfigMapper;
 import com.stopping.mvc.service.ExcelFieldConfigService;
@@ -17,4 +18,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class ExcelFieldConfigServiceImpl extends ServiceImpl<ExcelFieldConfigMapper, ExcelFieldConfig> implements ExcelFieldConfigService {
 
+    @Override
+    public void batchSave(ExcelFieldConfigDTO excelFieldConfig) {
+
+    }
 }
