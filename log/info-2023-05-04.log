@@ -1,0 +1,125 @@
+16:25:39.301 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 17232 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:25:39.304 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:25:40.523 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.486 seconds (JVM running for 2.373)
+16:26:15.571 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 14936 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:26:15.574 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:26:16.768 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.522 seconds (JVM running for 2.498)
+16:27:11.692 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 14432 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:27:11.694 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:27:12.893 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.553 seconds (JVM running for 2.567)
+16:27:31.407 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 13872 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:27:31.410 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:27:32.588 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.464 seconds (JVM running for 2.257)
+16:29:42.130 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 18320 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:29:42.133 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:29:43.408 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.594 seconds (JVM running for 2.528)
+16:30:04.915 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 14488 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:30:04.918 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:30:06.050 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.373 seconds (JVM running for 2.136)
+16:30:59.128 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 12300 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:30:59.130 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:31:00.282 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.386 seconds (JVM running for 2.173)
+16:32:03.478 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 15580 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:32:03.480 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:32:04.765 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.584 seconds (JVM running for 2.539)
+16:33:52.111 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 7124 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:33:52.113 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:33:53.319 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.459 seconds (JVM running for 2.259)
+16:34:17.812 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 7788 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:34:17.815 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:34:19.014 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.461 seconds (JVM running for 2.248)
+16:34:59.356 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 17940 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:34:59.360 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:35:00.948 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.985 seconds (JVM running for 2.953)
+16:35:58.118 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 15912 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:35:58.121 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:35:58.801 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:35:58.809 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:35:58.809 [main] INFO  o.a.catalina.core.StandardService - Starting com.stopping.mvc.service [Tomcat]
+16:35:58.810 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+16:35:58.867 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:35:58.868 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 711 ms
+16:35:58.973 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+16:35:59.070 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:35:59.084 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:35:59.086 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.233 seconds (JVM running for 2.038)
+16:41:47.178 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 21236 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:41:47.181 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:44:20.252 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication on DESKTOP-QGOJFOS with PID 17840 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:44:20.255 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:44:21.400 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 1.395 seconds (JVM running for 2.198)
+16:52:32.003 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_321 on DESKTOP-QGOJFOS with PID 13948 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:52:32.006 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:52:32.801 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:52:32.808 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:52:32.808 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:52:32.808 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+16:52:32.863 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:52:32.863 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 821 ms
+16:52:32.908 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:52:32.918 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:57:24.379 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_321 on DESKTOP-QGOJFOS with PID 7428 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+16:57:24.382 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:57:25.116 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:57:25.121 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:57:25.122 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:57:25.122 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+16:57:25.174 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:57:25.174 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 746 ms
+16:57:25.220 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:57:25.231 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:04:30.223 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_321 on DESKTOP-QGOJFOS with PID 14936 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+17:04:30.225 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+17:04:30.930 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:04:30.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:04:30.937 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:04:30.937 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+17:04:30.989 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:04:30.989 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
+17:04:31.031 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:04:31.042 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:05:11.732 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_321 on DESKTOP-QGOJFOS with PID 17072 (D:\code\excel-to-database\target\classes started by Administrator in D:\code\excel-to-database)
+17:05:11.736 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+17:05:12.533 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:05:12.543 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:05:12.543 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:05:12.543 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+17:05:12.610 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:05:12.610 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 828 ms
+17:05:13.891 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:05:13.904 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+17:05:13.912 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 2.552 seconds (JVM running for 3.553)
+16:27:32.605 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_301 on qinqizhaodeiMac.local with PID 94252 (/Users/stopping/code/stopping/ExcelToDB/target/classes started by stopping in /Users/stopping/code/stopping/ExcelToDB)
+16:27:32.607 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:27:33.546 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:27:33.555 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:27:33.555 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:27:33.556 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+16:27:33.609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:27:33.620 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 976 ms
+16:27:34.042 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:27:35.424 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:27:35.431 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:37:07.193 [main] INFO  com.stopping.ExcelToDBApplication - Starting ExcelToDBApplication using Java 1.8.0_301 on qinqizhaodeiMac.local with PID 96527 (/Users/stopping/code/stopping/ExcelToDB/target/classes started by stopping in /Users/stopping/code/stopping/ExcelToDB)
+16:37:07.195 [main] INFO  com.stopping.ExcelToDBApplication - No active profile set, falling back to default profiles: default
+16:37:07.988 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:37:07.999 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:37:08.000 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:37:08.000 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.48]
+16:37:08.079 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:37:08.079 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 843 ms
+16:37:08.554 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:37:08.956 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:37:09.404 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:37:09.426 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:37:09.433 [main] INFO  com.stopping.ExcelToDBApplication - Started ExcelToDBApplication in 2.591 seconds (JVM running for 3.06)
+17:25:38.944 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:25:38.957 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

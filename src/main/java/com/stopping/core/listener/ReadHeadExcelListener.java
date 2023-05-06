@@ -4,6 +4,7 @@ import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.metadata.data.ReadCellData;
 import com.alibaba.excel.read.listener.ReadListener;
 import com.alibaba.fastjson.JSON;
+import com.stopping.core.context.ExcelTableContext;
 import com.stopping.core.pojo.ExcelFieldConfigDTO;
 import com.stopping.core.pojo.ExcelHeadInfoDTO;
 import com.stopping.mvc.service.ExcelFieldConfigService;
@@ -23,20 +24,14 @@ public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> 
     private ExcelFieldConfigService excelFieldConfigService;
 
     /**
-     * Excel请求头关联信息
-     * */
-    private ExcelHeadInfoDTO excelHeadInfoDTO;
-
-    /**
      * 缓存读取配置信息
      */
     private List<ExcelFieldConfigDTO> excelFieldConfigDTOS = new ArrayList<>(MAX_THRESHOLD);
 
     private static Integer MAX_THRESHOLD = 100;
 
-    public ReadHeadExcelListener(ExcelFieldConfigService excelFieldConfigService,ExcelHeadInfoDTO excelHeadInfoDTO) {
+    public ReadHeadExcelListener(ExcelFieldConfigService excelFieldConfigService) {
         this.excelFieldConfigService = excelFieldConfigService;
-        this.excelHeadInfoDTO = excelHeadInfoDTO;
     }
 
     @Override
@@ -67,6 +62,7 @@ public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> 
     @Override
     public void doAfterAllAnalysed(AnalysisContext analysisContext) {
         saveExcelConfig();
-        System.out.println("数据清洗完毕");
+        System.out.println("数据清洗完毕,保存表格信息");
+
     }
 }

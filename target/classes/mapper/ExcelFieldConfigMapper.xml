@@ -3,10 +3,10 @@
 <mapper namespace="com.stopping.mvc.dao.mapper.ExcelFieldConfigMapper">
 
     <insert id="saveBatch" parameterType="java.util.List">
-        INSERT INTO `im_excel_field_config` (`table_field_name`, `field_name`,`key_column`, `must_fill`, `field_content_type`)
+        INSERT INTO `im_excel_field_config` (`table_field_name`, `table_id`,`field_name`,`key_column`, `must_fill`, `field_content_type`)
         VALUES
         <foreach collection="excelFields" item="fields" separator=",">
-            (#{fields.tableFieldName}, #{fields.fieldName}, #{fields.keyColumn}, #{fields.mustFill}, #{fields.fieldContentType})
+            (#{fields.tableFieldName}, #{fields.tableId},#{fields.fieldName}, #{fields.keyColumn}, #{fields.mustFill}, #{fields.fieldContentType})
         </foreach>
     </insert>
 </mapper>

@@ -14,4 +14,9 @@ public class ExcelHeadInfoDTO {
      * EXCEL映射数据库表名称
      */
     private String tableName;
+
+    /**
+     * Excel全局唯一ID
+     */
+    private String tableId;
 }
