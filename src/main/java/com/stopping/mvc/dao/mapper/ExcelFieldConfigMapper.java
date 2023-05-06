@@ -3,6 +3,7 @@ package com.stopping.mvc.dao.mapper;
 import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -20,5 +21,5 @@ public interface ExcelFieldConfigMapper extends BaseMapper<ExcelFieldConfig> {
      * 批量保存语句
      * @param excelFieldConfigs
      */
-    void saveBatch(List<ExcelFieldConfig> excelFieldConfigs);
+    void saveBatch(@Param("excelFields") List<ExcelFieldConfig> excelFieldConfigs);
 }

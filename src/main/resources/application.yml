@@ -1,7 +1,7 @@
 logging:
   config: classpath:logback.xml
   level:
-    root: info
+    root: debug
 
 spring:
   datasource:

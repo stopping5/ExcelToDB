@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="daomapper.ExcelFieldConfigMapper">
-    <insert id="saveBatch">
+<mapper namespace="com.stopping.mvc.dao.mapper.ExcelFieldConfigMapper">
 
+    <insert id="saveBatch" parameterType="java.util.List">
+        INSERT INTO `im_excel_field_config` (`table_field_name`, `field_name`,`key_column`, `must_fill`, `field_content_type`)
+        VALUES
+        <foreach collection="excelFields" item="fields" separator=",">
+            (#{fields.tableFieldName}, #{fields.fieldName}, #{fields.keyColumn}, #{fields.mustFill}, #{fields.fieldContentType})
+        </foreach>
     </insert>
 </mapper>

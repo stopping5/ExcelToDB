@@ -6,8 +6,11 @@ import com.alibaba.excel.read.listener.ReadListener;
 import com.alibaba.fastjson.JSON;
 import com.stopping.core.pojo.ExcelFieldConfigDTO;
 import com.stopping.core.pojo.ExcelHeadInfoDTO;
+import com.stopping.mvc.service.ExcelFieldConfigService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -17,6 +20,8 @@ import java.util.Map;
  */
 @Slf4j
 public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> {
+    private ExcelFieldConfigService excelFieldConfigService;
+
     /**
      * Excel请求头关联信息
      * */
@@ -29,7 +34,8 @@ public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> 
 
     private static Integer MAX_THRESHOLD = 100;
 
-    public ReadHeadExcelListener(ExcelHeadInfoDTO excelHeadInfoDTO) {
+    public ReadHeadExcelListener(ExcelFieldConfigService excelFieldConfigService,ExcelHeadInfoDTO excelHeadInfoDTO) {
+        this.excelFieldConfigService = excelFieldConfigService;
         this.excelHeadInfoDTO = excelHeadInfoDTO;
     }
 
@@ -42,7 +48,7 @@ public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> 
     @Override
     public void invoke(Map<Integer, String> integerStringMap, AnalysisContext analysisContext) {
         //System.out.println("读取行数据信息:" + JSON.toJSONString(integerStringMap));
-        ExcelFieldConfigDTO excelFieldConfigDTO = new ExcelFieldConfigDTO(integerStringMap.get(0),integerStringMap.get(1),Integer.valueOf(integerStringMap.get(2)),Integer.valueOf(integerStringMap.get(3)));
+        ExcelFieldConfigDTO excelFieldConfigDTO = new ExcelFieldConfigDTO(integerStringMap.get(0),integerStringMap.get(1),Integer.valueOf(integerStringMap.get(2)),Integer.valueOf(integerStringMap.get(3)),Integer.valueOf(integerStringMap.get(4)));
         excelFieldConfigDTOS.add(excelFieldConfigDTO);
         if (excelFieldConfigDTOS.size() >= MAX_THRESHOLD){
             saveExcelConfig();
@@ -55,7 +61,7 @@ public class ReadHeadExcelListener implements ReadListener<Map<Integer,String>> 
      */
     private void saveExcelConfig(){
         System.out.println("批量保存:"+JSON.toJSONString(excelFieldConfigDTOS));
-
+        excelFieldConfigService.batchSave(excelFieldConfigDTOS);
     }
 
     @Override

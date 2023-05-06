@@ -12,17 +12,21 @@ public class ExcelFieldConfigDTO {
     /**
      * 表头字段名
      * */
-    private String excelField;
+    private String fieldName;
     /**
      * 映射数据库字段名
      * */
-    private String dbField;
+    private String tableFieldName;
     /**
      * 是否必填：0-否，1-是
      * */
-    private Integer notEntry;
+    private Integer mustFill;
     /**
      * 字段类型：0-单选，1-多选
      * */
-    private Integer fileType;
+    private Integer fieldContentType;
+    /**
+     * 是否是hash判断字段
+     */
+    private Integer keyColumn;
 }
