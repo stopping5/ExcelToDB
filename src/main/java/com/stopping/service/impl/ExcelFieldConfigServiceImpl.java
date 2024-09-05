@@ -1,8 +1,8 @@
-package com.stopping.mvc.service.impl;
+package com.stopping.service.impl;
 
-import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
-import com.stopping.mvc.dao.mapper.ExcelFieldConfigMapper;
-import com.stopping.mvc.service.ExcelFieldConfigService;
+import com.stopping.model.ExcelFieldConfig;
+import com.stopping.dao.ExcelFieldConfigMapper;
+import com.stopping.service.ExcelFieldConfigService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.stopping.mvc.pojo.entity;
+package com.stopping.model;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -22,7 +22,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@TableName("im_excel_field_config")
+@TableName("excel_field_config")
 public class ExcelFieldConfig implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -33,7 +33,7 @@ public class ExcelFieldConfig implements Serializable {
     /**
      * 数据库字段名
      */
-    private String tableFieldName;
+    private String dbFieldName;
 
     /**
      * excel字段名

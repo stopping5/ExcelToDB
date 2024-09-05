@@ -1,6 +1,6 @@
-package com.stopping.mvc.service;
+package com.stopping.service;
 
-import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
+import com.stopping.model.ExcelFieldConfig;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

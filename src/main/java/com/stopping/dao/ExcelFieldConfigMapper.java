@@ -1,6 +1,6 @@
-package com.stopping.mvc.dao.mapper;
+package com.stopping.dao;
 
-import com.stopping.mvc.pojo.entity.ExcelFieldConfig;
+import com.stopping.model.ExcelFieldConfig;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
