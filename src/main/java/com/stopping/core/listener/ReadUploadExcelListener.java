@@ -119,36 +119,42 @@ public class ReadUploadExcelListener extends AnalysisEventListener<Map<Integer, 
 
     }
 
-    private void saveData(List<Map<Integer, String>> saveDataMap,ExcelTableInfoDTO excelTableInfo){
+    private void saveData(List<Map<Integer, String>> saveDataMap, ExcelTableInfoDTO excelTableInfo) {
         BatchDataService batchDataService = applicationContext.getBean(BatchDataService.class);
 
         List<ExcelFieldInfoDTO> fieldConfigs = excelTableInfo.getFieldConfigs();
-        String param = "`%s`";
-        Iterator<ExcelFieldInfoDTO> iterator = fieldConfigs.iterator();
-        while (iterator.hasNext()){
-            param = (String.format(param, iterator.next().getDbFieldName()));
-            if (iterator.hasNext()){
-                param += ",`%s`";
-            }
-        }
-
-        String sqlParam = param.toString();
-        log.info("SQL PARAM = {}",sqlParam);
-
-        StringBuffer allVal = new StringBuffer();
-        saveDataMap.forEach(data->{
-            StringBuffer valBuffer = new StringBuffer(PARAM_PRE);
-            data.forEach((k,v)->{
-                valBuffer.append("'"+v+"'").append(SPLIT);
-            });
-            valBuffer.deleteCharAt(valBuffer.length()-1);
-            valBuffer.append(PARAM_END);
-            allVal.append(valBuffer).append(SPLIT);
-        });
-        allVal.deleteCharAt(allVal.length()-1);
-        log.info("SQL Val = {}",allVal.toString());
-        batchDataService.batchInsertData(excelTableInfo.getDbTableName(),sqlParam,allVal.toString());
+        //参数组装逻辑
+        String fieldNames = dbParams(fieldConfigs);
+        //插入数据组装逻辑
+        String allValues = dbDataVal(saveDataMap);
+        batchDataService.batchInsertData(excelTableInfo.getDbTableName(), fieldNames, allValues);
     }
+
+    /**
+     * 数据插入db参数
+     * @param fieldConfigs 字段配置信息
+     * @return SQL param
+     */
+    private static String dbParams(List<ExcelFieldInfoDTO> fieldConfigs) {
+        return fieldConfigs.stream()
+                .map(ExcelFieldInfoDTO::getDbFieldName)
+                .map(fieldName -> String.format("`%s`", fieldName))
+                .collect(Collectors.joining(","));
+    }
+
+    /**
+     * 插入数据组装逻辑
+     * @param saveDataMap excel读取数据Map
+     * @return SQL Val值
+     */
+    private static String dbDataVal(List<Map<Integer, String>> saveDataMap) {
+        return saveDataMap.stream()
+                .map(data -> data.entrySet().stream()
+                        .map(entry -> "'" + entry.getValue() + "'")
+                        .collect(Collectors.joining(SPLIT,PARAM_PRE, PARAM_END)))
+                .collect(Collectors.joining(SPLIT));
+    }
+
 
     @Override
     public void doAfterAllAnalysed(AnalysisContext analysisContext) {
