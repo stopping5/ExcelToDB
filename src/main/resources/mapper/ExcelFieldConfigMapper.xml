@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="daomapper.ExcelFieldConfigMapper">
+<mapper namespace="com.stopping.dao.ExcelFieldConfigMapper">
 
+    <select id="findConfigByTableId" resultType="com.stopping.model.ExcelFieldConfig">
+        SELECT efc.* FROM excel_field_config efc
+        INNER JOIN table_field_relation tfr ON tfr.field_id = efc.id
+        WHERE tfr.table_id = #{tableId}
+    </select>
 </mapper>

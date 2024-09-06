@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.stopping.mvc.dao")
+@MapperScan(basePackages = "com.stopping.dao")
 public class ExcelToDBApplication {
     public static void main(String[] args) {
         SpringApplication.run(ExcelToDBApplication.class,args);

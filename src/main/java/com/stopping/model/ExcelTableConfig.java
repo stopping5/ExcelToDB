@@ -5,9 +5,10 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 /**
-* 
+* 表配置信息表
 */
 @Data
 @TableName("excel_table_config")
@@ -19,12 +20,12 @@ public class ExcelTableConfig {
     @TableField("id")
     private Integer id;
     /**
-    * 数据库字段名
+    * excel字段名
     */
     @TableField("excel_table_name")
     private String excelTableName;
     /**
-    * excel字段名
+    * 数据库表名
     */
     @TableField("db_table_name")
     private String dbTableName;
@@ -42,10 +43,10 @@ public class ExcelTableConfig {
     * 
     */
     @TableField("created_at")
-    private Date createdAt;
+    private LocalDateTime createdAt;
     /**
     * 
     */
     @TableField("updated_at")
-    private Date updatedAt;
+    private LocalDateTime updatedAt;
 }
